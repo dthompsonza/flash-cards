@@ -38,6 +38,7 @@ $(document).ready(function () {
         currentQuestion++;
         $("#buttonArea").empty();
         $("#buttonArea").append('<div id="nextButton">NEXT</div>');
+        $("#buttonArea").append('<div id="playWordButton">PLAY</div>');
         $("#nextButton").on("click", function () {
             if (currentQuestion < qbank.length) { beginActivity(); }
             else { displayFinalMessage(); }

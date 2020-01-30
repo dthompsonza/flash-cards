@@ -11,11 +11,18 @@ html, body {
     src: url("Montserrat-Medium.ttf");
 }
 
-#activityTitle {
+#mainTitle {
     text-align: center;
     font-size: 38px;
     font-family: Montserrat, Arial;
     margin-top: 50px;
+}
+
+#subTitle {
+    text-align: center;
+    font-size: 28px;
+    font-family: Montserrat, Arial;
+    margin-top: 30px;
 }
 
 #cardArea {
@@ -41,7 +48,7 @@ html, body {
     cursor: pointer;
 }
 
-#nextButton {
+#nextButton, #playWordButton {
     width: 80px;
     text-align: center;
     font-size: 20px;
@@ -50,13 +57,13 @@ html, body {
     color: #efefef;
     margin: auto;
     margin-top: 30px;
-    background-color: #019875;
+    background-color: #7731b8;
     border: 2px solid #1e824c;
     border-radius: 5px;
     font-family: Montserrat, Arial;
 }
 
-#nextButton:hover {
+#nextButton:hover, #playWordButton:hover {
     opacity: 0.6;
 }
 

@@ -1,0 +1,20 @@
+{
+    "Name": "Schools",
+    "MenuList": [
+        {
+            "Name": "Dories",
+            "MenuList": [
+                {
+                    "Name": "Grade 1 Sight Words",
+                    "MenuItems" : [
+                        {
+                            "Name": "Week 1",
+                            "Link": "/data/schools/dories/grade1-sight-words/grade1-sight-words-week1.json"
+
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
